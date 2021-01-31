@@ -10,9 +10,9 @@
 
 
 @implementation AbstractSystem
-
-- (void)command_up {
-    
+//聚合关联关系
+- (void)command_up {//桥接事件API接口
+    //抽象化分支和实现化分支桥接结构
     [self.implementor loadCommand:kUp];
 }
 

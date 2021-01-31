@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-//ExeCommandType
+//ExeCommandType(动作操作分支)
 typedef NS_ENUM(NSUInteger, EcommandType) {
     kUp,
     kDown,

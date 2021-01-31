@@ -10,10 +10,9 @@
 
 @interface PSPSystem : AbstractSystem
 
-//XO - 按钮
+//XO - 功能补充按钮
 - (void)command_X;
 
 - (void)command_O;
-
 
 @end

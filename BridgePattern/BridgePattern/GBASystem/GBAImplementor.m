@@ -12,7 +12,6 @@
 
 - (void)loadCommand:(EcommandType)command {
     switch (command) {
-            
         case kUp:
             
             NSLog(@"GBA up");
